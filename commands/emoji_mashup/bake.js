@@ -7,7 +7,5 @@ module.exports = {
     async execute(interaction) {
         await interaction.reply('hi');
         console.log(`User ${interaction.user.tag} used command ${interaction}`);
-    },
-
-
+    }
 };
