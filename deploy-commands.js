@@ -1,5 +1,6 @@
 // Run this to sync all the commands in the commands folder with the MUG Maniacs discord server
 // Seperate file cause we don't need to sync commands every time bot starts up
+// Credits to discord.js docs
 
 const { REST, Routes } = require('discord.js');
 const { clientId, guildId, token } = require('./config.json');
