@@ -6,7 +6,6 @@ module.exports = {
         .setDescription('Takes two emojis and mashes them together, returning an image of the output emoji'),
     async execute(interaction) {
         await interaction.reply('hi');
-
     },
 
 
